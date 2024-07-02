@@ -1,1 +1,2 @@
-Introduction lecture for MERN stack 
+Introduction lecture for MERN stack Installing IDE 
+
