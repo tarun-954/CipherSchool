@@ -1,0 +1,35 @@
+/* p{
+text-align: center;    
+}
+#myParagraph{
+    text-align: end;
+}
+.classSelector{
+    text-align:start;
+    color:red;
+} 
+/*  grouping the selectors*/ 
+/* .classSelector,
+#myParagraph,
+p{
+    
+    font-size: larger;
+} */ 
+ /* div p{
+    background-color: yellow;
+ }
+ div > p{
+    background-color: aqua;
+ } */
+
+ div ~ p:hover
+ {
+
+    background-color: red;
+ }
+
+ div ~ p::first-letter
+ {
+
+   color:yellow;
+ }
