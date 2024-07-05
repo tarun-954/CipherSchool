@@ -68,3 +68,47 @@ letter.add("a");
 letter.add("b");
 letter.add('a');
 console.log(letter);
+
+// classes in JS 
+class car {
+    constructor(name,year){
+        this.name=name;
+        this.year=year;
+
+    }
+}
+const mycar=new car("Tata",2020);
+const mycar2=new car("mahindra",2022);
+console.log(mycar,mycar2);
+
+// Promise in js
+const myFunction=()=>{
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+console.log("This is Inside the promise ");
+resolve();
+        },2000);
+    });
+};
+
+myFunction()
+.then(()=>{
+    console.log("Resolved ");
+
+})
+.catch(()=>{
+    console.log("Rejected");
+});
+
+//object in js 
+const person={
+    firstname:"john",
+    lastname:"Doe",
+    age:30,
+    eyecolor:"Blue"
+};
+let id=Symbol("id");
+person[id]=140111;
+console.log(person);
+const addTwoNumbers=(a,b=200)=>a+b;
+console.log(addTwoNumbers(100));
