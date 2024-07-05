@@ -112,3 +112,15 @@ person[id]=140111;
 console.log(person);
 const addTwoNumbers=(a,b=200)=>a+b;
 console.log(addTwoNumbers(100));
+
+
+// rest parameter in js
+const addNumbers=(...args)=>{
+    let sum=0;
+    for(let arg of args){
+        sum+=arg;
+    }
+    return sum;
+
+}
+console.log(addNumbers(10,10,10,10,10));
