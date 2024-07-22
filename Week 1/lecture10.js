@@ -147,4 +147,5 @@ let person = {
   console.log(person1.getDetails_NoAccess());
   
   let studemt1 = new Student("Anurag","Mishra", 20);
-  console.log(student1.getDetails());
+  console.log(student1.getDetails()); 
+  
