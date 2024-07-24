@@ -1,0 +1,20 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "description": "this enviroment set up project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "rohit kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0",
+    "nodemon": "^3.1.4",
+    "validator": "^13.12.0"
+  }
+}

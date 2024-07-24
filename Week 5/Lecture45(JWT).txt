@@ -1,0 +1,11 @@
+
+JWT stands for JSON Web Token. It is a compact, URL-safe means of representing 
+claims to be transferred between two parties. It is used to securely transmit 
+information between parties in a JSON format. JWTs can be used to authorize access 
+to resources and services.
+
+
+
+JWTs are typically used in web applications and APIs to authenticate users and validate their permissions. 
+When a user logs in, they are given a JWT which they can then use to make authenticated requests to the API.
+ The JWT will contain information about the user, such as their name and ID.
