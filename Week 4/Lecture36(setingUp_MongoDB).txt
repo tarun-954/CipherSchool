@@ -1,0 +1,19 @@
+MongoDB Atlas is a cloud service by MongoDB. It is built for developers who'd rather 
+spend time building apps than managing databases. This service is available on AWS, Azure, and GCP.
+
+It is the worldwide cloud database service for modern applications that give best-in-class 
+automation and proven practices guarantee availability, scalability, and compliance with the 
+foremost demanding data security and privacy standards. We can use MongoDB's robust ecosystem 
+of drivers, integrations, and tools to create faster and spend less time managing our database.
+
+
+
+use MongoDB Atlas step by step?
+1. MongoDB Atlas.
+2. Get Started.
+3. Create an Account.
+4. Deploy a Free Cluster.
+5. Manage Database Users.
+6. Manage the IP Access List.
+7. Connect to the Cluster.
+8. Insert and View a Document.

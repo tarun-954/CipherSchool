@@ -1,0 +1,7 @@
+What is MongoDB? 
+:– Non-relational Database
+MongoDB is a non-relational document database
+ that provides support for JSON-like storage. 
+ The MongoDB database has a flexible data model that 
+ enables you to store unstructured data, and it provides 
+ full indexing support, and replication with rich and intuitive APIs.

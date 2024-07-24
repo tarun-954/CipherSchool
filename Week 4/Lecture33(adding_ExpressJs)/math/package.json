@@ -1,0 +1,14 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "description": "this enviroment set up project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "rohit kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
